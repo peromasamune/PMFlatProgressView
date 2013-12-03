@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F84060618471FD800A9E299 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F84060518471FD800A9E299 /* Foundation.framework */; };
+		9F84060818471FD800A9E299 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F84060718471FD800A9E299 /* CoreGraphics.framework */; };
+		9F84060A18471FD800A9E299 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F84060918471FD800A9E299 /* UIKit.framework */; };
+		9F84061018471FD800A9E299 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F84060E18471FD800A9E299 /* InfoPlist.strings */; };
+		9F84061218471FD800A9E299 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F84061118471FD800A9E299 /* main.m */; };
+		9F84061618471FD800A9E299 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F84061518471FD800A9E299 /* AppDelegate.m */; };
+		9F84061C18471FD800A9E299 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F84061B18471FD800A9E299 /* ViewController.m */; };
+		9F84061E18471FD800A9E299 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F84061D18471FD800A9E299 /* Images.xcassets */; };
+		9F84062518471FD800A9E299 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F84062418471FD800A9E299 /* XCTest.framework */; };
+		9F84062618471FD800A9E299 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F84060518471FD800A9E299 /* Foundation.framework */; };
+		9F84062718471FD800A9E299 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F84060918471FD800A9E299 /* UIKit.framework */; };
+		9F84062F18471FD800A9E299 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F84062D18471FD800A9E299 /* InfoPlist.strings */; };
+		9F84063118471FD800A9E299 /* PMFlatProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F84063018471FD800A9E299 /* PMFlatProgressViewTests.m */; };
+		9F84063D1847207C00A9E299 /* PMFlatProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F84063C1847207C00A9E299 /* PMFlatProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F84062818471FD800A9E299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F8405FA18471FD800A9E299 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F84060118471FD800A9E299;
+			remoteInfo = PMFlatProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F84060218471FD800A9E299 /* PMFlatProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PMFlatProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F84060518471FD800A9E299 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F84060718471FD800A9E299 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F84060918471FD800A9E299 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F84060D18471FD800A9E299 /* PMFlatProgressView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PMFlatProgressView-Info.plist"; sourceTree = "<group>"; };
+		9F84060F18471FD800A9E299 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F84061118471FD800A9E299 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F84061318471FD800A9E299 /* PMFlatProgressView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PMFlatProgressView-Prefix.pch"; sourceTree = "<group>"; };
+		9F84061418471FD800A9E299 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F84061518471FD800A9E299 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F84061A18471FD800A9E299 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F84061B18471FD800A9E299 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F84061D18471FD800A9E299 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9F84062318471FD800A9E299 /* PMFlatProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMFlatProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F84062418471FD800A9E299 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9F84062C18471FD800A9E299 /* PMFlatProgressViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PMFlatProgressViewTests-Info.plist"; sourceTree = "<group>"; };
+		9F84062E18471FD800A9E299 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F84063018471FD800A9E299 /* PMFlatProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMFlatProgressViewTests.m; sourceTree = "<group>"; };
+		9F84063B1847207C00A9E299 /* PMFlatProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMFlatProgressView.h; path = Classes/PMFlatProgressView.h; sourceTree = "<group>"; };
+		9F84063C1847207C00A9E299 /* PMFlatProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMFlatProgressView.m; path = Classes/PMFlatProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F8405FF18471FD800A9E299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F84060818471FD800A9E299 /* CoreGraphics.framework in Frameworks */,
+				9F84060A18471FD800A9E299 /* UIKit.framework in Frameworks */,
+				9F84060618471FD800A9E299 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F84062018471FD800A9E299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F84062518471FD800A9E299 /* XCTest.framework in Frameworks */,
+				9F84062718471FD800A9E299 /* UIKit.framework in Frameworks */,
+				9F84062618471FD800A9E299 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F8405F918471FD800A9E299 = {
+			isa = PBXGroup;
+			children = (
+				9F84060B18471FD800A9E299 /* PMFlatProgressView */,
+				9F84062A18471FD800A9E299 /* PMFlatProgressViewTests */,
+				9F84060418471FD800A9E299 /* Frameworks */,
+				9F84060318471FD800A9E299 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F84060318471FD800A9E299 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F84060218471FD800A9E299 /* PMFlatProgressView.app */,
+				9F84062318471FD800A9E299 /* PMFlatProgressViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F84060418471FD800A9E299 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F84060518471FD800A9E299 /* Foundation.framework */,
+				9F84060718471FD800A9E299 /* CoreGraphics.framework */,
+				9F84060918471FD800A9E299 /* UIKit.framework */,
+				9F84062418471FD800A9E299 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F84060B18471FD800A9E299 /* PMFlatProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				9F84063A1847206400A9E299 /* Classes */,
+				9F84061418471FD800A9E299 /* AppDelegate.h */,
+				9F84061518471FD800A9E299 /* AppDelegate.m */,
+				9F84061A18471FD800A9E299 /* ViewController.h */,
+				9F84061B18471FD800A9E299 /* ViewController.m */,
+				9F84061D18471FD800A9E299 /* Images.xcassets */,
+				9F84060C18471FD800A9E299 /* Supporting Files */,
+			);
+			path = PMFlatProgressView;
+			sourceTree = "<group>";
+		};
+		9F84060C18471FD800A9E299 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F84060D18471FD800A9E299 /* PMFlatProgressView-Info.plist */,
+				9F84060E18471FD800A9E299 /* InfoPlist.strings */,
+				9F84061118471FD800A9E299 /* main.m */,
+				9F84061318471FD800A9E299 /* PMFlatProgressView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F84062A18471FD800A9E299 /* PMFlatProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F84063018471FD800A9E299 /* PMFlatProgressViewTests.m */,
+				9F84062B18471FD800A9E299 /* Supporting Files */,
+			);
+			path = PMFlatProgressViewTests;
+			sourceTree = "<group>";
+		};
+		9F84062B18471FD800A9E299 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F84062C18471FD800A9E299 /* PMFlatProgressViewTests-Info.plist */,
+				9F84062D18471FD800A9E299 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F84063A1847206400A9E299 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9F84063B1847207C00A9E299 /* PMFlatProgressView.h */,
+				9F84063C1847207C00A9E299 /* PMFlatProgressView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F84060118471FD800A9E299 /* PMFlatProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F84063418471FD800A9E299 /* Build configuration list for PBXNativeTarget "PMFlatProgressView" */;
+			buildPhases = (
+				9F8405FE18471FD800A9E299 /* Sources */,
+				9F8405FF18471FD800A9E299 /* Frameworks */,
+				9F84060018471FD800A9E299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PMFlatProgressView;
+			productName = PMFlatProgressView;
+			productReference = 9F84060218471FD800A9E299 /* PMFlatProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F84062218471FD800A9E299 /* PMFlatProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F84063718471FD800A9E299 /* Build configuration list for PBXNativeTarget "PMFlatProgressViewTests" */;
+			buildPhases = (
+				9F84061F18471FD800A9E299 /* Sources */,
+				9F84062018471FD800A9E299 /* Frameworks */,
+				9F84062118471FD800A9E299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F84062918471FD800A9E299 /* PBXTargetDependency */,
+			);
+			name = PMFlatProgressViewTests;
+			productName = PMFlatProgressViewTests;
+			productReference = 9F84062318471FD800A9E299 /* PMFlatProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F8405FA18471FD800A9E299 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Peromasamune;
+				TargetAttributes = {
+					9F84062218471FD800A9E299 = {
+						TestTargetID = 9F84060118471FD800A9E299;
+					};
+				};
+			};
+			buildConfigurationList = 9F8405FD18471FD800A9E299 /* Build configuration list for PBXProject "PMFlatProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F8405F918471FD800A9E299;
+			productRefGroup = 9F84060318471FD800A9E299 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F84060118471FD800A9E299 /* PMFlatProgressView */,
+				9F84062218471FD800A9E299 /* PMFlatProgressViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F84060018471FD800A9E299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F84061E18471FD800A9E299 /* Images.xcassets in Resources */,
+				9F84061018471FD800A9E299 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F84062118471FD800A9E299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F84062F18471FD800A9E299 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F8405FE18471FD800A9E299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F84061C18471FD800A9E299 /* ViewController.m in Sources */,
+				9F84061618471FD800A9E299 /* AppDelegate.m in Sources */,
+				9F84061218471FD800A9E299 /* main.m in Sources */,
+				9F84063D1847207C00A9E299 /* PMFlatProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F84061F18471FD800A9E299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F84063118471FD800A9E299 /* PMFlatProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F84062918471FD800A9E299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F84060118471FD800A9E299 /* PMFlatProgressView */;
+			targetProxy = 9F84062818471FD800A9E299 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F84060E18471FD800A9E299 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F84060F18471FD800A9E299 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F84062D18471FD800A9E299 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F84062E18471FD800A9E299 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F84063218471FD800A9E299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F84063318471FD800A9E299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F84063518471FD800A9E299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PMFlatProgressView/PMFlatProgressView-Prefix.pch";
+				INFOPLIST_FILE = "PMFlatProgressView/PMFlatProgressView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F84063618471FD800A9E299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PMFlatProgressView/PMFlatProgressView-Prefix.pch";
+				INFOPLIST_FILE = "PMFlatProgressView/PMFlatProgressView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9F84063818471FD800A9E299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PMFlatProgressView.app/PMFlatProgressView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PMFlatProgressView/PMFlatProgressView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PMFlatProgressViewTests/PMFlatProgressViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9F84063918471FD800A9E299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PMFlatProgressView.app/PMFlatProgressView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PMFlatProgressView/PMFlatProgressView-Prefix.pch";
+				INFOPLIST_FILE = "PMFlatProgressViewTests/PMFlatProgressViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F8405FD18471FD800A9E299 /* Build configuration list for PBXProject "PMFlatProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F84063218471FD800A9E299 /* Debug */,
+				9F84063318471FD800A9E299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F84063418471FD800A9E299 /* Build configuration list for PBXNativeTarget "PMFlatProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F84063518471FD800A9E299 /* Debug */,
+				9F84063618471FD800A9E299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F84063718471FD800A9E299 /* Build configuration list for PBXNativeTarget "PMFlatProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F84063818471FD800A9E299 /* Debug */,
+				9F84063918471FD800A9E299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F8405FA18471FD800A9E299 /* Project object */;
+}
